@@ -9,16 +9,7 @@ function App() {
   const names = ["Js", "Jsx", "react", "Java"];
   return (
     <div className="App">
-      {/* <Intro name="Lucky" /> */}
-      {/* {
-        names.map((name, key) => {
-          return <h1 key={key}>{name}</h1>
-        })
-      } */}
-      {/* <Lesson2 /> */}
-
-      {/* <ReactHooks /> */}
-      {/* <ToDo /> */}
+    
       <UsingAPI />
       
     </div>
@@ -49,6 +40,7 @@ const Lesson2 = () =>{
     {name: "Luxshan", age: 23},
     {name: "Lucky", age: 24},
     {name: "mr.Robot", age: 24}
+    
   ];
 
   return (
